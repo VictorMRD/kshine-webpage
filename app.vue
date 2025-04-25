@@ -16,13 +16,13 @@
         slot: 'components' as const
     },
     {
-        label: 'Redes',
-        icon: 'material-symbols:nest-heat-link-gen-3',
-        slot: 'components' as const
-      },
-    {
         label: 'Trayectoria',
         icon: 'material-symbols:history',
+        slot: 'components' as const
+    },
+    {
+        label: 'Redes',
+        icon: 'material-symbols:nest-heat-link-gen-3',
         slot: 'components' as const
     },
     ] satisfies NavigationMenuItem[]
