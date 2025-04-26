@@ -27,24 +27,33 @@
             </div>
             <div class="w-full bg-purple-100 flex flex-col items-center overflow-hidden">
                 <p class="text-4xl font-semibold py-4 font-mono text-purple-400">Integrantes</p>
-                <div id="member-card" class="bg-black flex overflow-hidden">
-                    <img src="/assets/images/queila.jpg" class="w-1/5 h-1/5">
-                    <div class="font-mono w-fit bg-purple-100 p-4 max-w-1/3">
-                        <p class="text-4xl font-mono font-bold text-center">Queila</p>
-                        <p class="text-lg">Con una sonrisa que ilumina cualquier sala; </p><br>
-                        <p class="text-xs">
-                            y una energía que contagia a todos a su alrededor,<br>
-                            <span class="font-semibold italic">Queila</span> es el alma alegre y carismática del grupo. Como bailarina <br>
-                            principal, deslumbra en cada coreografía con una mezcla única <br>
-                            de pasión, precisión y presencia escénica. Siempre lista para <br>
-                            brillar junto a sus compañeras, nunca deja pasar una oportunidad <br>
-                            de oro para subirse al escenario y compartir su amor por la música <br> 
-                            con los fans. Su apoyo incondicional y cercanía hacen de ella no <br> 
-                            solo una artista dedicada, sino también una amiga esencial dentro del grupo.
-                        </p> 
-                        <p class="font-semibold">✨ Cuando ella está en escena, sabes que algo especial está por comenzar.</p>
-                    </div>
-                </div>
+                <UDrawer>
+                    <UButton label="Queila" color="neutral" variant="ghost" class="w-20 h-20 flex justify-center items-center"/>
+                    <template #content>
+                        <div id="member-card" class="flex flex-col items-center justify-center pb-10">
+                            <p class="text-4xl font-mono font-bold text-center py-6">Queila</p>
+                            <div class="flex justify-center">
+                                <img src="/assets/images/queila.jpg" class="w-1/5 h-1/5">
+                                <div class="font-mono p-4 max-w-1/3">
+                                    <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
+                                    <p class="text-sm">
+                                        Tiene una energía que contagia a todos a su alrededor,<br>
+                                        <span class="font-semibold italic">Queila</span> es el alma alegre y carismática del grupo. <br>
+                                        Como bailarina principal, deslumbra en cada coreografía con una mezcla única <br>
+                                        de pasión, precisión y presencia escénica. Siempre lista para <br>
+                                        brillar junto a sus compañeras, nunca deja pasar una oportunidad <br>
+                                        de oro para subirse al escenario y compartir su amor por la música <br> 
+                                        con los fans. Su apoyo incondicional y cercanía hacen de ella no <br> 
+                                        solo una artista dedicada, sino también una amiga esencial dentro del grupo.
+                                    </p> 
+                                    <br>
+                                    <p class="font-semibold">✨ Cuando ella está en escena, sabes que algo especial está por comenzar.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <Placeholder class="h-48 m-4" /> -->
+                    </template>
+                </UDrawer>
             </div>
         </div>
         <div id="covers">
