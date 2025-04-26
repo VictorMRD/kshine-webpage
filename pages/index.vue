@@ -1,3 +1,6 @@
+<script lang="ts">
+</script>
+
 <template>
     <div id="main-container" class="flex flex-col items-center justify-center py-8 gap-20">
         <div id="start" class="flex flex-col gap-20">
@@ -27,33 +30,64 @@
             </div>
             <div class="w-full bg-purple-100 flex flex-col items-center overflow-hidden">
                 <p class="text-4xl font-semibold py-4 font-mono text-purple-400">Integrantes</p>
-                <UDrawer>
-                    <UButton label="Queila" color="neutral" variant="ghost" class="w-20 h-20 flex justify-center items-center"/>
-                    <template #content>
-                        <div id="member-card" class="flex flex-col items-center justify-center pb-10">
-                            <p class="text-4xl font-mono font-bold text-center py-6">Queila</p>
-                            <div class="flex justify-center">
-                                <img src="/assets/images/queila.jpg" class="w-1/5 h-1/5">
-                                <div class="font-mono p-4 max-w-1/3">
-                                    <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
-                                    <p class="text-sm">
-                                        Tiene una energía que contagia a todos a su alrededor,<br>
-                                        <span class="font-semibold italic">Queila</span> es el alma alegre y carismática del grupo. <br>
-                                        Como bailarina principal, deslumbra en cada coreografía con una mezcla única <br>
-                                        de pasión, precisión y presencia escénica. Siempre lista para <br>
-                                        brillar junto a sus compañeras, nunca deja pasar una oportunidad <br>
-                                        de oro para subirse al escenario y compartir su amor por la música <br> 
-                                        con los fans. Su apoyo incondicional y cercanía hacen de ella no <br> 
-                                        solo una artista dedicada, sino también una amiga esencial dentro del grupo.
-                                    </p> 
-                                    <br>
-                                    <p class="font-semibold">✨ Cuando ella está en escena, sabes que algo especial está por comenzar.</p>
+                <div class="flex">
+                    <UDrawer>
+                        <UButton label="Queila" color="neutral" variant="ghost" class="w-1/4 h-1/4 flex justify-center items-center p-0">
+                            <img src="../assets/images/framed_pictures/queila.png"
+                        </UButton>
+                        <template #content>
+                            <div id="member-card" class="flex flex-col items-center justify-center pb-10">
+                                <p class="text-4xl font-mono font-bold text-center py-6">Queila</p>
+                                <div class="flex justify-center">
+                                    <img src="/assets/images/queila.jpg" class="w-1/5 h-1/5">
+                                    <div class="font-mono p-4 max-w-1/3">
+                                        <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
+                                        <p class="text-sm">
+                                            Tiene una energía que contagia a todos a su alrededor,<br>
+                                            <span class="font-semibold italic">Queila</span> es el alma alegre y carismática del grupo. <br>
+                                            Como bailarina principal, deslumbra en cada coreografía con una mezcla única <br>
+                                            de pasión, precisión y presencia escénica. Siempre lista para <br>
+                                            brillar junto a sus compañeras, nunca deja pasar una oportunidad <br>
+                                            de oro para subirse al escenario y compartir su amor por la música <br> 
+                                            con los fans. Su apoyo incondicional y cercanía hacen de ella no <br> 
+                                            solo una artista dedicada, sino también una amiga esencial dentro del grupo.
+                                        </p> 
+                                        <br>
+                                        <p class="font-semibold">✨ Cuando ella está en escena, sabes que algo especial está por comenzar.</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- <Placeholder class="h-48 m-4" /> -->
-                    </template>
-                </UDrawer>
+                        </template>
+                    </UDrawer>
+                    <UDrawer>
+                        <UButton label="Queila" color="neutral" variant="ghost" class="w-1/4 h-1/4 flex justify-center items-center p-0">
+                            <img src="../assets/images/framed_pictures/melanie.png"
+                        </UButton>
+                        <template #content>
+                            <div id="member-card" class="flex flex-col items-center justify-center pb-10">
+                                <p class="text-4xl font-mono font-bold text-center py-6">Melanie</p>
+                                <div class="flex justify-center items-center">
+                                    <img src="/assets/images/melanie.jpg" class="w-1/4 h-1/4">
+                                    <div class="font-mono p-4 max-w-1/3">
+                                        <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
+                                        <p class="text-sm">
+                                            Tiene una energía que contagia a todos a su alrededor,<br>
+                                            <span class="font-semibold italic">Queila</span> es el alma alegre y carismática del grupo. <br>
+                                            Como bailarina principal, deslumbra en cada coreografía con una mezcla única <br>
+                                            de pasión, precisión y presencia escénica. Siempre lista para <br>
+                                            brillar junto a sus compañeras, nunca deja pasar una oportunidad <br>
+                                            de oro para subirse al escenario y compartir su amor por la música <br> 
+                                            con los fans. Su apoyo incondicional y cercanía hacen de ella no <br> 
+                                            solo una artista dedicada, sino también una amiga esencial dentro del grupo.
+                                        </p> 
+                                        <br>
+                                        <p class="font-semibold">✨ Cuando ella está en escena, sabes que algo especial está por comenzar.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </template>
+                    </UDrawer>
+                </div>
             </div>
         </div>
         <div id="covers">
