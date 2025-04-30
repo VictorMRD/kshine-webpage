@@ -42,7 +42,7 @@
 <template>
   <UApp>
     <NuxtRouteAnnouncer />
-    <div class="flex justify-between items-center px-10 border-b-1 border-gray-300 shadow-xs">
+    <div class="flex justify-between items-center px-10 border-b-1 border-gray-300 shadow-xs fixed w-full light:bg-white dark:bg-slate-900">
       <p class="w-fit text-nowrap font-semibold select-none">K-Shine</p>
       <UNavigationMenu :items="items" class="w-full justify-center items-center"/>
       <ClientOnly v-if="!colorMode?.forced">
