@@ -1,8 +1,10 @@
 <script lang="ts">
+    import { NuxtLink } from '#components';
+
 </script>
 
 <template>
-    <div id="main-container" class="flex flex-col items-center justify-center py-8 gap-20 overflow-hidden">
+    <div id="inicio" class="flex flex-col items-center justify-center py-8 gap-20 overflow-hidden">
         <div id="start" class="flex flex-col gap-20 items-center mt-10">
             <div class="w-fit flex justify-center ">
                 <div class="flex flex-col w-2/3">
@@ -28,7 +30,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col items-center mt-10">
+            <div id="members" class="flex flex-col items-center mt-10">
                 <div class="flex flex-col items-center ">
                     <div class="flex flex-nowrap max-w-2/3 bg-purple-200 dark:bg-purple-300">
                         <UDrawer>
@@ -61,7 +63,7 @@
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800">H</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">H</p>
                         </div>
                         <UDrawer>
                             <UButton label="Jenny" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
@@ -93,7 +95,7 @@
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800">N</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">N</p>
                         </div>
                         <UDrawer>
                             <UButton label="Julio" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
@@ -127,7 +129,7 @@
                     <div class="flex flex-nowrap  max-w-2/3 bg-purple-200 dark:bg-purple-300">
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800">S</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">S</p>
                         </div>
                         <UDrawer>
                             <UButton label="Queila" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
@@ -159,7 +161,7 @@
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800">I</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">I</p>
                         </div>
                         <UDrawer>
                             <UButton label="Queila" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
@@ -191,26 +193,31 @@
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800">E</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">E</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div id="covers" class="">
-            <p>Covers</p>
-            <div class="w-20 h-20 ">
-                
             </div>
         </div>
         <div id="photos">
             photos
         </div>
         <div id="trajectory">
-            trajectory
+            <p class="font-mono">trajectory</p>
         </div>
-        <div id="networks">
-            networks
+        <div id="networks" class="flex flex-col items-center  w-1/6">
+            <p class="font-mono">Redes sociales</p>
+            <div class="flex justify-center gap-4 bg-purple-100 rounded-xl">
+                <a href="https://www.facebook.com/profile.php?id=100089308399149" target="_blank" rel="noopener noreferrer">
+                    <UButton icon="ic:baseline-facebook" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
+                </a>
+                <a href="https://www.tiktok.com/@kshine.official?fbclid=IwY2xjawJ_UtlleHRuA2FlbQIxMABicmlkETFMNDNXVG1iTHJSWURkS3hxAR6XgvAab0yxMSzxDkCZdX47WedhovZBVqZxc6LPkWHP_Oub-mO3HQFUSqqaRg_aem_4IGr6O9HL5JuY7gx8qqKWA" target="_blank" rel="noopener noreferrer">
+                    <UButton icon="iconoir:tiktok-solid" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
+                </a>
+                <a href="https://www.instagram.com/kshine.official/reels/" target="_blank" rel="noopener noreferrer">
+                    <UButton icon="ri:instagram-fill" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
+                </a>
+            </div>
         </div>
     </div>
 </template>
