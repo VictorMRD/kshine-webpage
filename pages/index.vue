@@ -199,8 +199,12 @@
                 </div>
             </div>
         </div>
-        <div id="photos">
-            photos
+        <div id="photos" class="flex items-center w-2/3">
+            <div class="flex flex-col items-center w-full h-full">
+                <p class="font-mono font-bold">Próxima presentación</p>
+                <img class="max-w-2/3" src="../assets/images/general/poster_01.png">
+            </div>
+            
         </div>
         <div id="trajectory">
             <p class="font-mono">trajectory</p>
