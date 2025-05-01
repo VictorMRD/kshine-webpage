@@ -1,6 +1,13 @@
-<script lang="ts">
+<script setup lang="ts">
     import { NuxtLink, USeparator } from '#components';
+    import { ref } from 'vue'
+    const current_step = ref(0)
+    const left_array = ref(['../assets/images/general/poster_01.png','omgomgomg image 2?'])
+    const right_array = ref(['blablablabla poster_01 wowowow','../assets/images/general/poster_02.png'])
 
+    function slider_change() {
+        let real_value = current_step.value * 0.10
+    }
 </script>
 
 <template>
@@ -200,9 +207,22 @@
                 </div>
             </div>
         </div>
-        <USeparator id="members" label="Miembros" class="font-mono font-thin scroll-m-20"></USeparator>
-        <div id="trajectory">
-            <p class="font-mono">trajectory</p>
+        <USeparator id="trajectory" label="Trayectoria" class="font-mono font-thin scroll-mt-20"></USeparator>
+        <div class="h-90 w-2/3">
+            <div class="flex w-full">
+                <div class="w-full">
+                    <img :src="left_array[0]">
+                    <img :src="left_array[current_step * 0.10]">
+                    <p>{{ left_array[current_step * 0.10] }}</p>
+                </div>
+                <div class="w-10">
+                    <USlider orientation="vertical" :inverted="true" :step="10" color="neutral" class="h-90" v-model="current_step" :change="slider_change()" />
+                </div>
+                <div class="w-full">
+                    <img :src="right_array[current_step * 0.10]">
+                    <p>{{ right_array[current_step * 0.10] }}</p>
+                </div>
+            </div>
         </div>
         <div id="networks" class="flex flex-col items-center  w-1/6">
             <p class="font-mono">Redes sociales</p>
