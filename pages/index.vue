@@ -1,12 +1,12 @@
 <script lang="ts">
-    import { NuxtLink } from '#components';
+    import { NuxtLink, USeparator } from '#components';
 
 </script>
 
 <template>
     <div id="inicio" class="flex flex-col items-center justify-center py-8 gap-20 overflow-hidden">
-        <div id="start" class="flex flex-col gap-20 items-center mt-10">
-            <div class="w-fit flex justify-center ">
+        <div id="start" class="flex flex-col items-center gap-10 mt-10">
+            <div class="w-fit flex justify-center">
                 <div class="flex flex-col w-2/3">
                     <img src="../assets/images/kshine_img.jpg"/>
                     <div class="flex pt-6 gap-2">
@@ -30,7 +30,8 @@
                     </div>
                 </div>
             </div>
-            <div id="members" class="flex flex-col items-center mt-10">
+            <USeparator id="members" label="Miembros" class="font-mono font-thin scroll-m-20"></USeparator>
+            <div class="flex flex-col items-center">
                 <div class="flex flex-col items-center ">
                     <div class="flex flex-nowrap max-w-2/3 bg-purple-200 dark:bg-purple-300">
                         <UDrawer>
@@ -199,13 +200,7 @@
                 </div>
             </div>
         </div>
-        <div id="photos" class="flex items-center w-2/3">
-            <div class="flex flex-col items-center w-full h-full">
-                <p class="font-mono font-bold">Próxima presentación</p>
-                <img class="max-w-2/3" src="../assets/images/general/poster_01.png">
-            </div>
-            
-        </div>
+        <USeparator id="members" label="Miembros" class="font-mono font-thin scroll-m-20"></USeparator>
         <div id="trajectory">
             <p class="font-mono">trajectory</p>
         </div>

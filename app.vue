@@ -13,12 +13,6 @@
         to: '#members'
     },
     {
-        label: 'Fotos',
-        icon: 'material-symbols:photo-camera-back-rounded',
-        slot: 'components' as const,
-        to: '#photos'
-    },
-    {
         label: 'Trayectoria',
         icon: 'material-symbols:history',
         slot: 'components' as const,
