@@ -2,8 +2,8 @@
     import { NuxtLink, USeparator } from '#components';
     import { ref } from 'vue'
     const current_step = ref(0)
-    const left_array = ref(['../assets/images/general/poster_01.png','omgomgomg image 2?'])
-    const right_array = ref(['blablablabla poster_01 wowowow','../assets/images/general/poster_02.png'])
+    const left_array = ref(['Primera presentación',''])
+    const right_array = ref(['11 de diciembre de 2021',''])
 
     function slider_change() {
         let real_value = current_step.value * 0.10
@@ -15,7 +15,7 @@
         <div id="start" class="flex flex-col items-center gap-10 mt-10">
             <div class="w-fit flex justify-center">
                 <div class="flex flex-col w-2/3">
-                    <img src="../assets/images/kshine_img.jpg"/>
+                    <img src="/images/kshine_img.jpg"/>
                     <div class="flex pt-6 gap-2">
                         <p class="text-4xl font-semibold w-fit text-nowrap pr-3 font-mono text-purple-400">¿Quiénes somos?</p>
                         <div class="font-mono">
@@ -43,13 +43,13 @@
                     <div class="flex flex-nowrap max-w-2/3 bg-purple-200 dark:bg-purple-300">
                         <UDrawer>
                             <UButton label="Queila" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
-                                <img src="../assets/images/framed_pictures/queila.png">
+                                <img src="/images/framed_pictures/queila.png">
                             </UButton>
                             <template #content>
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Queila</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/assets/images/queila.jpg" class="w-1/3">
+                                        <img src="/images/queila.jpg" class="w-1/3">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
@@ -70,18 +70,18 @@
                             </template>
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
-                            <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
+                            <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
                             <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">H</p>
                         </div>
                         <UDrawer>
                             <UButton label="Jenny" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
-                                <img src="../assets/images/framed_pictures/jenny.png">
+                                <img src="/images/framed_pictures/jenny.png">
                             </UButton>
                             <template #content>
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Jenny</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/assets/images/jenny.jpg" class="w-1/3">
+                                        <img src="/images/jenny.jpg" class="w-1/3">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
@@ -102,18 +102,18 @@
                             </template>
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
-                            <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
+                            <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
                             <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">N</p>
                         </div>
                         <UDrawer>
                             <UButton label="Julio" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
-                                <img src="../assets/images/framed_pictures/julio.png">
+                                <img src="/images/framed_pictures/julio.png">
                             </UButton>
                             <template #content>
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Julio</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/assets/images/julio.jpg" class="w-1/3">
+                                        <img src="/images/julio.jpg" class="w-1/3">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
@@ -136,18 +136,18 @@
                     </div>
                     <div class="flex flex-nowrap  max-w-2/3 bg-purple-200 dark:bg-purple-300">
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
-                            <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
+                            <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
                             <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">S</p>
                         </div>
                         <UDrawer>
                             <UButton label="Queila" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
-                                <img src="../assets/images/framed_pictures/melanie.png">
+                                <img src="/images/framed_pictures/melanie.png">
                             </UButton>
                             <template #content>
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Melanie</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/assets/images/melanie.jpg" class="w-1/3">
+                                        <img src="/images/melanie.jpg" class="w-1/3">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
@@ -168,18 +168,18 @@
                             </template>
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
-                            <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
+                            <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
                             <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">I</p>
                         </div>
                         <UDrawer>
                             <UButton label="Queila" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
-                                <img src="../assets/images/framed_pictures/karie.png">
+                                <img src="/images/framed_pictures/karie.png">
                             </UButton>
                             <template #content>
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Karie</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/assets/images/karie.jpg" class="w-1/3">
+                                        <img src="/images/karie.jpg" class="w-1/3">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
@@ -200,7 +200,7 @@
                             </template>
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
-                            <img src="../assets/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
+                            <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
                             <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">E</p>
                         </div>
                     </div>
@@ -208,22 +208,24 @@
             </div>
         </div>
         <USeparator id="trajectory" label="Trayectoria" class="font-mono font-thin scroll-mt-20"></USeparator>
-        <div class="h-90 w-2/3">
-            <div class="flex w-full">
-                <div class="w-full">
-                    <img :src="left_array[0]">
-                    <img :src="left_array[current_step * 0.10]">
-                    <p>{{ left_array[current_step * 0.10] }}</p>
+        <div class="w-2/3 overflow-hidden h-[500px] flex flex-col justify-center ">
+            <div class="flex items-center min-h-[400px] gap-5 ">
+                <div class="w-full flex flex-col items-center">
+                    <transition name="fade" mode="out-in">
+                        <p :key="left_array[current_step * 0.10]">{{ left_array[current_step * 0.10] }}</p>
+                    </transition>
                 </div>
-                <div class="w-10">
-                    <USlider orientation="vertical" :inverted="true" :step="10" color="neutral" class="h-90" v-model="current_step" :change="slider_change()" />
+                <div class="h-full max-h-[400px]">
+                    <USlider orientation="vertical" :inverted="true" :step="10" color="neutral" class="h-full" v-model="current_step" :change="slider_change()" />
                 </div>
-                <div class="w-full">
-                    <img :src="right_array[current_step * 0.10]">
-                    <p>{{ right_array[current_step * 0.10] }}</p>
+                <div class="w-full flex flex-col items-center">
+                    <transition name="fade" mode="out-in">
+                        <p :key="right_array[current_step * 0.10]">{{ right_array[current_step * 0.10] }}</p>
+                    </transition>
                 </div>
             </div>
         </div>
+        <USeparator id="photos" label="Fotos" class="font-mono font-thin scroll-mt-20"></USeparator>
         <div id="networks" class="flex flex-col items-center  w-1/6">
             <p class="font-mono">Redes sociales</p>
             <div class="flex justify-center gap-4 bg-purple-100 rounded-xl">
@@ -240,3 +242,12 @@
         </div>
     </div>
 </template>
+
+<style>
+    .fade-enter-active, .fade-leave-active {
+        transition: opacity 0.3s ease;
+    }
+    .fade-enter-from, .fade-leave-to {
+        opacity: 0;
+    }
+</style>

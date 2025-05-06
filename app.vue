@@ -19,6 +19,12 @@
         to: '#trajectory'
     },
     {
+        label: 'Fotos',
+        icon: 'heroicons:photo-16-solid',
+        slot: 'components' as const,
+        to: '#photos'
+    },
+    {
         label: 'Redes',
         icon: 'material-symbols:nest-heat-link-gen-3',
         slot: 'components' as const,
