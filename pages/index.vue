@@ -2,8 +2,10 @@
     import { NuxtLink, USeparator } from '#components';
     import { ref } from 'vue'
     const current_step = ref(0)
-    const left_array = ref(['Primera presentación',''])
-    const right_array = ref(['11 de diciembre de 2021',''])
+    const left_array = ref(['<span class="font-semibold text-3xl font-mono">Primera presentación</span>','<span class="font-semibold text-xl">30 de octubre del 2022</span>','<span class="font-semibold text-3xl font-mono">Creación del logo original y caracteristico del grupo</span>','<span class="font-semibold text-xl">25 de enero del 2022</span>','<span class="font-semibold text-3xl font-mono">Presentación en el evento LGBT+ de La Paz BCS</span>','<span class="font-semibold text-xl">17 de diciembre de 2023</span>','<span class="font-semibold text-3xl font-mono">Primera publicación grupal</span>','<span class="font-semibold text-xl">20 de enero del 2024</span>','<span class="font-semibold text-3xl font-mono">Presentación en Arena La Paz</span>','<span class="font-semibold text-xl">9 de mayo del 2025</span>','<span class="font-semibold text-3xl font-mono">Creación de la página web oficial de K-Shine</span>'])
+    const left_array_extra = ref(['','Primer cover oficial con coreografía y vestuario original junto con la participación de todos los integrantes activos del grupo, bajo el nombre de <span class="font-bold"> K-shine </span>','','Una de las primeras presentaciones hechas con un promotor de apoyo','','Bailando el cover de Sugar Rush Ride en la competencia "All Star Tournament, utilizando vestuario de cuero diseñados por los mismos integrantes"','','Un objetivo importante cumplido. Era uno de los más grandes sueños del grupo bailar en el carnaval de su ciudad.','','Por el evento de cultura del estado'])
+    const right_array = ref(['<span class="font-semibold text-xl">11 de diciembre de 2021</span>','<span class="font-semibold text-3xl font-mono">Debut oficial de K-SHINE</span>','<span class="font-semibold text-xl">16 de enero del 2022</span>','<span class="font-semibold text-3xl font-mono">Presentación grupal en el centro recreativo "ElHuevo"</span>','<span class="font-semibold text-xl">7 de Julio de 2023</span>', '<span class="font-semibold text-3xl font-mono">Presentación en la FrikiPosada</span>','<span class="font-semibold text-xl">18 de diciembre de 2023</span>','<span class="font-semibold text-3xl font-mono">Presentación en el Carnaval La Paz</span>','<span class="font-semibold text-xl">16 de marzo del 2024</span>','<span class="font-semibold text-3xl font-mono">Presentación en el teatro de la ciudad</span>','<span class="font-semibold text-xl">10 de mayo del 2025</span>'])
+    const right_array_extra = ref(['Participación como grupo independiente sin nombre','','','','','','Se hizo con la intención de presentar a cada uno de los integrantes del grupo y abrir más el grupo','','Acompañando al evento "PintaBCS"'])
 
     function slider_change() {
         let real_value = current_step.value * 0.10
@@ -212,15 +214,37 @@
             <div class="flex items-center min-h-[400px] gap-5 ">
                 <div class="w-full flex flex-col items-center">
                     <transition name="fade" mode="out-in">
-                        <p :key="left_array[current_step * 0.10]">{{ left_array[current_step * 0.10] }}</p>
+                        <p
+                            class="font-mono text-center"
+                            v-html="left_array[current_step * 0.10]"
+                            :key="left_array[current_step * 0.10]"
+                        ></p>
+                    </transition>
+                    <transition name="fade" mode="out-in">
+                        <p
+                            class="font-mono text-center"
+                            v-html="left_array_extra[current_step * 0.10]"
+                            :key="left_array_extra[current_step * 0.10]"
+                        ></p>
                     </transition>
                 </div>
                 <div class="h-full max-h-[400px]">
                     <USlider orientation="vertical" :inverted="true" :step="10" color="neutral" class="h-full" v-model="current_step" :change="slider_change()" />
                 </div>
-                <div class="w-full flex flex-col items-center">
+                <div class="w-full flex flex-col items-center justify-center">
                     <transition name="fade" mode="out-in">
-                        <p :key="right_array[current_step * 0.10]">{{ right_array[current_step * 0.10] }}</p>
+                        <p
+                            class="font-mono text-center"
+                            v-html="right_array[Math.floor(current_step * 0.10)]"
+                            :key="right_array[current_step * 0.10]"
+                        ></p>
+                    </transition>
+                    <transition name="fade" mode="out-in">
+                        <p
+                            class="font-mono text-center"
+                            v-html="right_array_extra[current_step * 0.10]"
+                            :key="right_array_extra[current_step * 0.10]"
+                        ></p>
                     </transition>
                 </div>
             </div>
