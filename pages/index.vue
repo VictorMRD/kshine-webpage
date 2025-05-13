@@ -268,17 +268,19 @@
             </div>
         </div>
         <div id="networks" class="flex flex-col items-center  w-1/6 fixed bottom-2">
-            <p class="font-mono text-nowrap">Redes sociales</p>
-            <div class="flex justify-center gap-4 bg-purple-100 rounded-xl">
-                <a href="https://www.facebook.com/profile.php?id=100089308399149" target="_blank" rel="noopener noreferrer">
-                    <UButton icon="ic:baseline-facebook" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
-                </a>
-                <a href="https://www.tiktok.com/@kshine.official?fbclid=IwY2xjawJ_UtlleHRuA2FlbQIxMABicmlkETFMNDNXVG1iTHJSWURkS3hxAR6XgvAab0yxMSzxDkCZdX47WedhovZBVqZxc6LPkWHP_Oub-mO3HQFUSqqaRg_aem_4IGr6O9HL5JuY7gx8qqKWA" target="_blank" rel="noopener noreferrer">
-                    <UButton icon="iconoir:tiktok-solid" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
-                </a>
-                <a href="https://www.instagram.com/kshine.official/reels/" target="_blank" rel="noopener noreferrer">
-                    <UButton icon="ri:instagram-fill" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
-                </a>
+            <div class="flex justify-center items-center bg-purple-100 rounded-xl flex-col gap-0 m-0">
+                <p class="font-mono text-nowrap p-0 -mb-2">Redes sociales</p>
+                <div class="flex justify-center items-center p-0 m-0">
+                    <a href="https://www.facebook.com/profile.php?id=100089308399149" target="_blank" rel="noopener noreferrer">
+                        <UButton icon="ic:baseline-facebook" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
+                    </a>
+                    <a href="https://www.tiktok.com/@kshine.official?fbclid=IwY2xjawJ_UtlleHRuA2FlbQIxMABicmlkETFMNDNXVG1iTHJSWURkS3hxAR6XgvAab0yxMSzxDkCZdX47WedhovZBVqZxc6LPkWHP_Oub-mO3HQFUSqqaRg_aem_4IGr6O9HL5JuY7gx8qqKWA" target="_blank" rel="noopener noreferrer">
+                        <UButton icon="iconoir:tiktok-solid" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
+                    </a>
+                    <a href="https://www.instagram.com/kshine.official/reels/" target="_blank" rel="noopener noreferrer">
+                        <UButton icon="ri:instagram-fill" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
