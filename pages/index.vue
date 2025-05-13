@@ -51,7 +51,7 @@
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Queila</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/images/queila.jpg" class="w-1/3 max-h-[800px]">
+                                        <img src="/images/queila.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
@@ -83,7 +83,7 @@
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Jenny</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/images/jenny.jpg" class="w-1/3 max-h-[800px]">
+                                        <img src="/images/jenny.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
@@ -115,7 +115,7 @@
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Julio</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/images/julio.jpg" class="w-1/3 max-h-[800px]">
+                                        <img src="/images/julio.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
@@ -149,7 +149,7 @@
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Melanie</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/images/melanie.jpg" class="w-1/3 max-h-[800px]">
+                                        <img src="/images/melanie.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
@@ -181,7 +181,7 @@
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
                                     <p class="text-4xl font-mono font-bold text-center py-6">Karie</p>
                                     <div class="flex justify-center items-center">
-                                        <img src="/images/karie.jpg" class="w-1/3 max-h-[800px]">
+                                        <img src="/images/karie.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3">
                                             <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
                                             <p class="text-sm">
