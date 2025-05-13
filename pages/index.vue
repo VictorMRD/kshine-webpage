@@ -250,8 +250,25 @@
             </div>
         </div>
         <USeparator id="photos" label="Fotos" class="font-mono font-thin scroll-mt-20"></USeparator>
-        <div id="networks" class="flex flex-col items-center  w-1/6">
-            <p class="font-mono">Redes sociales</p>
+        <div class="flex flex-col items-center max-w-2/3 overflow-hidden mb-12">
+            <div class="flex flex-col">
+                <img src="/images/general/group_05.png" class="bg-white w-full">
+                <div class="flex">
+                    <div class="flex flex-col">
+                        <img src="/images/general/poster_02.png" class="bg-white w-[380px]">
+                        <img src="/images/general/poster_03.png" class="bg-white w-[380px]">
+                    </div>
+                    <div>
+                        <img src="/images/general/poster_01.png" class="bg-white w-full h-full">
+                    </div>
+                </div>
+                <div class="flex flex-col">
+                    <img src="/images/general/group_06.png" class="bg-white w-full">
+                </div>
+            </div>
+        </div>
+        <div id="networks" class="flex flex-col items-center  w-1/6 fixed bottom-2">
+            <p class="font-mono text-nowrap">Redes sociales</p>
             <div class="flex justify-center gap-4 bg-purple-100 rounded-xl">
                 <a href="https://www.facebook.com/profile.php?id=100089308399149" target="_blank" rel="noopener noreferrer">
                     <UButton icon="ic:baseline-facebook" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
