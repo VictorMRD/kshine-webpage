@@ -53,19 +53,18 @@
                                     <div class="flex justify-center items-center">
                                         <img src="/images/queila.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3">
-                                            <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
+                                            <p>Con una sonrisa que ilumina cualquier sala;</p><br>
                                             <p class="text-sm">
-                                                Tiene una energía que contagia a todos a su alrededor,<br>
-                                                <span class="font-semibold italic">Queila</span> es el alma alegre y carismática del grupo. <br>
-                                                Como bailarina principal, deslumbra en cada coreografía con una mezcla única <br>
-                                                de pasión, precisión y presencia escénica. Siempre lista para <br>
-                                                brillar junto a sus compañeras, nunca deja pasar una oportunidad <br>
-                                                de oro para subirse al escenario y compartir su amor por la música <br> 
-                                                con los fans. Su apoyo incondicional y cercanía hacen de ella no <br> 
-                                                solo una artista dedicada, sino también una amiga esencial dentro del grupo.
-                                            </p> 
+                                                <span class="font-semibold italic">Queila</span> es la chispa del grupo: <br>
+                                                carismática, energética y llena de pasión. <br>
+                                                Como bailarina principal, deslumbra con precisión <br>
+                                                y presencia en cada coreografía. Su amor por la <br>
+                                                música y su entrega en el escenario inspiran, <br>
+                                                mientras su cercanía la convierte en una amiga <br>
+                                                esencial para todas.
+                                            </p>
                                             <br>
-                                            <p class="font-semibold">✨ Cuando ella está en escena, sabes que algo especial está por comenzar.</p>
+                                            <p class="font-semibold">✨ Cuando está en escena, algo especial comienza.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -142,7 +141,7 @@
                             <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">S</p>
                         </div>
                         <UDrawer>
-                            <UButton label="Queila" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
+                            <UButton label="Melanie" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
                                 <img src="/images/framed_pictures/melanie.png">
                             </UButton>
                             <template #content>
@@ -174,7 +173,7 @@
                             <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">I</p>
                         </div>
                         <UDrawer>
-                            <UButton label="Queila" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
+                            <UButton label="Karie" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
                                 <img src="/images/framed_pictures/karie.png">
                             </UButton>
                             <template #content>
@@ -183,20 +182,19 @@
                                     <div class="flex justify-center items-center">
                                         <img src="/images/karie.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3">
-                                            <p class="">Con una sonrisa que ilumina cualquier sala; </p><br>
-                                            <p class="text-sm">
-                                                Tiene una energía que contagia a todos a su alrededor,<br>
-                                                <span class="font-semibold italic">Queila</span> es el alma alegre y carismática del grupo. <br>
-                                                Como bailarina principal, deslumbra en cada coreografía con una mezcla única <br>
-                                                de pasión, precisión y presencia escénica. Siempre lista para <br>
-                                                brillar junto a sus compañeras, nunca deja pasar una oportunidad <br>
-                                                de oro para subirse al escenario y compartir su amor por la música <br> 
-                                                con los fans. Su apoyo incondicional y cercanía hacen de ella no <br> 
-                                                solo una artista dedicada, sino también una amiga esencial dentro del grupo.
-                                            </p> 
-                                            <br>
-                                            <p class="font-semibold">✨ Cuando ella está en escena, sabes que algo especial está por comenzar.</p>
-                                        </div>
+                                    <p>Con una sonrisa que ilumina cualquier sala;</p><br>
+                                    <p class="text-sm">
+                                        <span class="font-semibold italic">Queila</span> es la chispa del grupo: <br>
+                                        carismática, energética y llena de pasión. <br>
+                                        Como bailarina principal, deslumbra con precisión <br>
+                                        y presencia en cada coreografía. Su amor por la <br>
+                                        música y su entrega en el escenario inspiran, <br>
+                                        mientras su cercanía la convierte en una amiga <br>
+                                        esencial para todas.
+                                    </p>
+                                    <br>
+                                    <p class="font-semibold">✨ Cuando está en escena, algo especial comienza.</p>
+                                </div>
                                     </div>
                                 </div>
                             </template>
