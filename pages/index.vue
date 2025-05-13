@@ -269,7 +269,6 @@
         </div>
         <div id="networks" class="flex flex-col items-center  w-1/6 fixed bottom-2">
             <div class="flex justify-center items-center bg-purple-100 rounded-xl flex-col gap-0 m-0">
-                <p class="font-mono text-nowrap p-0 -mb-2">Redes sociales</p>
                 <div class="flex justify-center items-center p-0 m-0">
                     <a href="https://www.facebook.com/profile.php?id=100089308399149" target="_blank" rel="noopener noreferrer">
                         <UButton icon="ic:baseline-facebook" class="text-4xl bg-transparent text-purple-600 hover:bg-purple-300 transition-all duration-300"></UButton>
