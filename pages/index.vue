@@ -16,14 +16,16 @@
     <div id="inicio" class="flex flex-col items-center justify-center py-8 gap-20 overflow-hidden">
         <div id="start" class="flex flex-col items-center gap-10 mt-10">
             <div class="w-fit flex justify-center">
-                <div class="flex flex-col w-2/3">
+                <div class="flex flex-col w-2/3 max-sm:w-full">
                     <img src="/images/kshine_img.jpg"/>
-                    <div class="flex pt-6 gap-2">
-                        <p class="text-4xl font-semibold w-fit text-nowrap pr-3 font-mono text-purple-400">¿Quiénes somos?</p>
+                    <div class="flex pt-6 gap-2 max-sm:flex-col max-sm:text-center max-sm:items-center max-sm:px-4">
+                        <p class="text-4xl font-semibold w-fit text-nowrap pr-3 font-mono text-purple-400 max-sm:text-center">¿Quiénes somos?</p>
                         <div class="font-mono">
                             <p class="text-lg pt-1">
                                 K-Shine (o "llave al brillo" por su juego de palabras en inglés) es un grupo de dance cover
                                 Kpop conformado por 4 integrantes con una trayectoria de alrededor de 3 años activos.
+                                <br>
+                                <br>
                                 Reconocidos por sus presentaciones en alusión a TXT, llevan un gran camino dentro del mundo
                                 del dance cover y se encuentran innovando constantemente su calidad y presentación. 
                             </p>
@@ -42,7 +44,7 @@
             <USeparator id="members" label="Miembros" class="font-mono font-thin scroll-m-20"></USeparator>
             <div class="flex flex-col items-center">
                 <div class="flex flex-col items-center ">
-                    <div class="flex flex-nowrap max-w-2/3 bg-purple-200 dark:bg-purple-300">
+                    <div class="flex flex-nowrap max-w-2/3 bg-purple-200 dark:bg-purple-300 max-sm:max-w-full">
                         <UDrawer>
                             <UButton label="Queila" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
                                 <img src="/images/framed_pictures/queila.png">
@@ -72,7 +74,7 @@
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">H</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono max-sm:text-7xl">H</p>
                         </div>
                         <UDrawer>
                             <UButton label="Jenny" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
@@ -104,7 +106,7 @@
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">N</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono max-sm:text-7xl">N</p>
                         </div>
                         <UDrawer>
                             <UButton label="Julio" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
@@ -135,10 +137,10 @@
                             </template>
                         </UDrawer>
                     </div>
-                    <div class="flex flex-nowrap  max-w-2/3 bg-purple-200 dark:bg-purple-300">
+                    <div class="flex flex-nowrap  max-w-2/3 bg-purple-200 dark:bg-purple-300 max-sm:max-w-full">
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">S</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono max-sm:text-7xl">S</p>
                         </div>
                         <UDrawer>
                             <UButton label="Melanie" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
@@ -170,7 +172,7 @@
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">I</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono max-sm:text-7xl">I</p>
                         </div>
                         <UDrawer>
                             <UButton label="Karie" color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none hover:rounded-4xl hover:scale-90 transition-all duration-500 overflow-hidden">
@@ -201,7 +203,7 @@
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
                             <img src="/images/framed_pictures/blackbox.png" class="bg-white opacity-0">
-                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono">E</p>
+                            <p class="absolute text-9xl font-bold text-purple-400 dark:text-purple-800 font-mono max-sm:text-7xl">E</p>
                         </div>
                     </div>
                 </div>
