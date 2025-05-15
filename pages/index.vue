@@ -228,7 +228,9 @@
                     </transition>
                 </div>
                 <div class="lg:h-full max-sm:h-[100px] max-h-[400px] max-sm:w-full max-sm:px-4">
-                    <USlider :orientation="sliderOrientation" :inverted="sliderInverted" :step="10" color="neutral" class="h-full" v-model="current_step" :change="slider_change()" />
+                    <ClientOnly>
+                        <USlider :orientation="sliderOrientation" :inverted="sliderInverted" :step="10" color="neutral" class="h-full" v-model="current_step" :change="slider_change()" />
+                    </ClientOnly>
                 </div>
                 <div class="w-full flex flex-col items-center justify-center">
                     <transition name="fade" mode="out-in">
