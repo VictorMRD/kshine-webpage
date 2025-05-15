@@ -10,5 +10,8 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ]
+  },
+  app: {
+    baseURL: '/kshine-webpage/'
   }
 })
