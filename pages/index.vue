@@ -86,22 +86,21 @@
                             </UButton>
                             <template #content>
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
-                                    <p class="text-4xl font-mono font-bold text-center py-6">Jenny</p>
+                                    <p class="text-4xl font-mono font-bold text-center py-6">Dylan</p>
                                     <div class="flex justify-center items-center max-sm:flex-col">
                                         <img src="/images/jenny.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3 max-sm:max-w-full">
-                                            <p>Con una sonrisa que ilumina cualquier sala;</p><br>
+                                            <p>Con determinación y pasión en cada paso;</p><br>
                                             <p class="text-sm">
-                                                <span class="font-semibold italic">Queila</span> es la chispa del grupo: <br>
-                                                carismática, energética y llena de pasión. <br>
-                                                Como bailarina principal, deslumbra con precisión <br>
-                                                y presencia en cada coreografía. Su amor por la <br>
-                                                música y su entrega en el escenario inspiran, <br>
-                                                mientras su cercanía la convierte en una amiga <br>
-                                                esencial para todas.
+                                                <span class="font-semibold italic">Dylan</span> es sinónimo de entrega total: <br>
+                                                comprometido, enfocado y siempre en constante <br>
+                                                evolución. Su dominio del cuerpo en el baile <br>
+                                                impresiona, y su habilidad para el maquillaje <br>
+                                                embellece cada presentación. Inspira con <br>
+                                                disciplina y eleva el nivel del equipo.
                                             </p>
                                             <br>
-                                            <p class="font-semibold">✨ Cuando está en escena, algo especial comienza.</p>
+                                            <p class="font-semibold">💄 Siempre deja su toque brillante en cada detalle.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -121,18 +120,17 @@
                                     <div class="flex justify-center items-center max-sm:flex-col">
                                         <img src="/images/julio.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3 max-sm:max-w-full">
-                                            <p>Con una sonrisa que ilumina cualquier sala;</p><br>
+                                            <p>Con energía y compromiso desde el primer paso;</p><br>
                                             <p class="text-sm">
-                                                <span class="font-semibold italic">Queila</span> es la chispa del grupo: <br>
-                                                carismática, energética y llena de pasión. <br>
-                                                Como bailarina principal, deslumbra con precisión <br>
-                                                y presencia en cada coreografía. Su amor por la <br>
-                                                música y su entrega en el escenario inspiran, <br>
-                                                mientras su cercanía la convierte en una amiga <br>
-                                                esencial para todas.
+                                                <span class="font-semibold italic">Julio</span> es el alma optimista del equipo: <br>
+                                                puntual, dedicado y siempre dispuesto a dar más. <br>
+                                                Aprende coreografías con rapidez, y su actitud <br>
+                                                positiva transforma cada ensayo en un momento <br>
+                                                ameno. Con él, el trabajo en grupo se vuelve más <br>
+                                                liviano y lleno de sonrisas sinceras.
                                             </p>
                                             <br>
-                                            <p class="font-semibold">✨ Cuando está en escena, algo especial comienza.</p>
+                                            <p class="font-semibold">😄 Su buena vibra siempre llega primero al ensayo.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -150,25 +148,25 @@
                             </UButton>
                             <template #content>
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
-                                    <p class="text-4xl font-mono font-bold text-center py-6">Melanie</p>
+                                    <p class="text-4xl font-mono font-bold text-center py-6">Annie</p>
                                     <div class="flex justify-center items-center max-sm:flex-col">
                                         <img src="/images/melanie.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3 max-sm:max-w-full">
-                                            <p>Con una sonrisa que ilumina cualquier sala;</p><br>
+                                            <p>Con una sensibilidad natural para el ritmo;</p><br>
                                             <p class="text-sm">
-                                                <span class="font-semibold italic">Queila</span> es la chispa del grupo: <br>
-                                                carismática, energética y llena de pasión. <br>
-                                                Como bailarina principal, deslumbra con precisión <br>
-                                                y presencia en cada coreografía. Su amor por la <br>
-                                                música y su entrega en el escenario inspiran, <br>
-                                                mientras su cercanía la convierte en una amiga <br>
-                                                esencial para todas.
+                                                <span class="font-semibold italic">Annie</span> destaca como una guía innata: <br>
+                                                capta cada compás con precisión, enseña con <br>
+                                                claridad y paciencia, y siempre brinda ánimo <br>
+                                                al equipo. Su responsabilidad es constante, y su <br>
+                                                estilo al vestir refleja una elegancia única. <br>
+                                                Annie no solo marca el paso, sino también <br>
+                                                el corazón de quienes la rodean.
                                             </p>
                                             <br>
-                                            <p class="font-semibold">✨ Cuando está en escena, algo especial comienza.</p>
+                                            <p class="font-semibold">🎶 Siempre tiene el ritmo y la palabra justa para cada momento.</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div>      
                             </template>
                         </UDrawer>
                         <div color="neutral" variant="ghost" class="w-3/5 flex justify-center items-center p-0 rounded-none transition-all duration-500 overflow-hidden select-none bg-purple-100 dark:bg-purple-400">
@@ -181,22 +179,22 @@
                             </UButton>
                             <template #content>
                                 <div id="member-card" class="flex flex-col items-center justify-center pb-10">
-                                    <p class="text-4xl font-mono font-bold text-center py-6">Karie</p>
+                                    <p class="text-4xl font-mono font-bold text-center py-6">Kari</p>
                                     <div class="flex justify-center items-center max-sm:flex-col">
                                         <img src="/images/karie.jpg" class="w-1/3 max-h-[500px]">
                                         <div class="font-mono p-4 max-w-1/3 max-sm:max-w-full">
-                                            <p>Con una sonrisa que ilumina cualquier sala;</p><br>
+                                            <p>Con liderazgo natural y calidez maternal;</p><br>
                                             <p class="text-sm">
-                                                <span class="font-semibold italic">Queila</span> es la chispa del grupo: <br>
-                                                carismática, energética y llena de pasión. <br>
-                                                Como bailarina principal, deslumbra con precisión <br>
-                                                y presencia en cada coreografía. Su amor por la <br>
-                                                música y su entrega en el escenario inspiran, <br>
-                                                mientras su cercanía la convierte en una amiga <br>
-                                                esencial para todas.
+                                                <span class="font-semibold italic">Kari</span> organiza, apoya y motiva con <br>
+                                                dedicación inquebrantable. Siempre está atenta <br>
+                                                a los detalles y al bienestar del grupo, <br>
+                                                animando a cada uno a dar lo mejor. <br>
+                                                Su rapidez para aprender y ejecutar, sumada <br>
+                                                a su empatía, la convierten en el corazón <br>
+                                                estratégico y emocional del equipo.
                                             </p>
                                             <br>
-                                            <p class="font-semibold">✨ Cuando está en escena, algo especial comienza.</p>
+                                            <p class="font-semibold">🌸 Mamá del grupo, pero también el motor que lo impulsa.</p>
                                         </div>
                                     </div>
                                 </div>
