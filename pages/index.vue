@@ -1,6 +1,7 @@
 <script setup lang="ts">
     import { NuxtLink, USeparator } from '#components';
     import { ref } from 'vue'
+    import { useMediaQuery } from '@vueuse/core'
     const current_step = ref(0)
     const left_array = ref(['<span class="font-semibold text-3xl font-mono">Primera presentación</span>','<span class="font-semibold text-xl">30 de octubre del 2022</span>','<span class="font-semibold text-3xl font-mono">Creación del logo original y caracteristico del grupo</span>','<span class="font-semibold text-xl">25 de enero del 2022</span>','<span class="font-semibold text-3xl font-mono">Presentación en el evento LGBT+ de La Paz BCS</span>','<span class="font-semibold text-xl">17 de diciembre de 2023</span>','<span class="font-semibold text-3xl font-mono">Primera publicación grupal</span>','<span class="font-semibold text-xl">20 de enero del 2024</span>','<span class="font-semibold text-3xl font-mono">Presentación en Arena La Paz</span>','<span class="font-semibold text-xl">9 de mayo del 2025</span>','<span class="font-semibold text-3xl font-mono">Creación de la página web oficial de K-Shine</span>'])
     const left_array_extra = ref(['','Primer cover oficial con coreografía y vestuario original junto con la participación de todos los integrantes activos del grupo, bajo el nombre de <span class="font-bold"> K-shine </span>','','Una de las primeras presentaciones hechas con un promotor de apoyo','','Bailando el cover de Sugar Rush Ride en la competencia "All Star Tournament, utilizando vestuario de cuero diseñados por los mismos integrantes"','','Un objetivo importante cumplido. Era uno de los más grandes sueños del grupo bailar en el carnaval de su ciudad.','','Por el evento de cultura del estado'])
@@ -10,6 +11,9 @@
     function slider_change() {
         let real_value = current_step.value * 0.10
     }
+    const isSmallScreen = useMediaQuery('(max-width: 639px)')
+    const sliderOrientation = computed(() => (isSmallScreen.value ? 'horizontal' : 'vertical'))
+    const sliderInverted = computed(() => (isSmallScreen.value ? false : true))
 </script>
 
 <template>
@@ -207,8 +211,8 @@
             </div>
         </div>
         <USeparator id="trajectory" label="Trayectoria" class="font-mono font-thin scroll-mt-20"></USeparator>
-        <div class="w-2/3 overflow-hidden h-[500px] flex flex-col justify-center ">
-            <div class="flex items-center min-h-[400px] gap-5 ">
+        <div class="w-2/3 overflow-hidden lg:h-[500px] flex lg:flex-col justify-center ">
+            <div class="flex max-sm:flex-col items-center lg:min-h-[400px] lg:gap-5">
                 <div class="w-full flex flex-col items-center">
                     <transition name="fade" mode="out-in">
                         <p
@@ -225,8 +229,8 @@
                         ></p>
                     </transition>
                 </div>
-                <div class="h-full max-h-[400px]">
-                    <USlider orientation="vertical" :inverted="true" :step="10" color="neutral" class="h-full" v-model="current_step" :change="slider_change()" />
+                <div class="lg:h-full max-sm:h-[100px] max-h-[400px] max-sm:w-full max-sm:px-4">
+                    <USlider :orientation="sliderOrientation" :inverted="sliderInverted" :step="10" color="neutral" class="h-full" v-model="current_step" :change="slider_change()" />
                 </div>
                 <div class="w-full flex flex-col items-center justify-center">
                     <transition name="fade" mode="out-in">
@@ -247,7 +251,7 @@
             </div>
         </div>
         <USeparator id="photos" label="Fotos" class="font-mono font-thin scroll-mt-20"></USeparator>
-        <div class="flex flex-col items-center max-w-2/3 overflow-hidden mb-12">
+        <div class="flex flex-col items-center lg:max-w-2/3 overflow-hidden mb-12">
             <div class="flex flex-col">
                 <img src="/images/general/group_05.png" class="bg-white w-full">
                 <div class="flex">
